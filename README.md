@@ -41,7 +41,7 @@ Daytona’s functionality is exposed through a command-line tool that runs on Li
 
 ---
 
-## Daytona Configuration
+## Devcontainer Configuration
 
 The Daytona configuration for this project is located in the `.devcontainer` directory. The `devcontainer.json` file specifies the development environment settings, including the Docker image, forwarded ports, VS Code extensions, and post-create commands.
 
