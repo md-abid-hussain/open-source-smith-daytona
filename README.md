@@ -1,5 +1,62 @@
 # OpenSourceSmith
 
+OpenSourceSmith is a platform designed to empower developers by providing curated open-source templates for frontend, backend, and full-stack applications. Our goal is to streamline the development process, allowing you to start your next project in minutes with ready-to-use resources. Whether you're a beginner or an experienced developer, our tools are designed to save you time and effort, enabling you to focus on building great software.
+
+## Links
+
+- **Platform**: [OpenSourceSmith](https://opensourcesmith.vercel.app/)
+- **Documentation**: [OpenSourceSmith Docs](https://amomynus.mintlify.app/introduction)
+- **CLI Tool**: [open-source-smith](https://www.npmjs.com/package/open-source-smith)
+
+## Purpose
+
+The purpose of OpenSourceSmith is to connect developers with the best open-source resources, tailored to kickstart their journey. Our platform offers a wide range of templates, seamless GitHub integration, and a powerful CLI tool to generate project setup steps from README, Dockerfile to GitHub Actions.
+
+## Tech Stack
+
+OpenSourceSmith is built using the following technologies:
+
+- **Next.js**: For server-side rendering and static site generation.
+- **Vercel**: For seamless deployment and hosting.
+- **Postgres**: For database management.
+- **CopilotKit**: The simplest way to integrate production-ready Copilots into any product.
+- **ShadCN**: For creating beautiful and consistent UI designs.
+- **Tailwind CSS**: For building responsive and modern designs.
+- **Google Gemini**: For advanced AI capabilities with CopilotKit.
+- **NextAuth**: For secure and flexible authentication solutions.
+- **Mintlify**: For documentation platform.
+- **Prisma**: For next-generation ORM for Node.js and TypeScript.
+
+## Usage
+
+To get started with OpenSourceSmith, follow these steps:
+
+1. **Explore Templates**: Browse our collection of ready-to-use templates for various types of applications.
+2. **GitHub Integration**: Upload templates directly from your GitHub repository and share them with the community.
+3. **CLI Tool**: Use our CLI tool, open-source-smith, to streamline your development process and generate project setup steps.
+
+## Features
+
+- **Ready-to-Use Templates**: Start your next project in minutes with our curated collection of templates.
+- **GitHub Integration**: Seamlessly integrate your existing projects and share them with the community.
+- **Open-Source CLI Tool**: Streamline your development process with our CLI tool.
+- **Beginner-Friendly**: Tools designed to save you time and effort, regardless of your experience level.
+- **Comprehensive Documentation**: Detailed guides to help you get started quickly.
+
+## Tools and Libraries Used
+
+- **Vercel**: For deployment and hosting.
+- **Neon Postgres**: For database management.
+- **Next.js**: For server-side rendering and static site generation.
+- **CopilotKit**: For integrating LLM capabilities.
+- **ShadCN**: For UI design.
+- **Tailwind CSS**: For responsive design.
+- **Google Gemini**: For AI capabilities.
+- **NextAuth**: For authentication.
+- **Mintlify**: For static site generation.
+- **devcontainer**: For development environment management.
+
+
 ### Open Using Daytona
 
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
@@ -19,17 +76,7 @@
    npm run dev
    ```
 
----
 
-## ✨ Features
-
-- **Next.js**: A React framework for building fast and user-friendly web applications.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **Prisma**: A next-generation ORM for Node.js and TypeScript.
-- **NextAuth**: Authentication for Next.js applications.
-- **Dev Containers**: Standardized development environments using Docker.
-
----
 
 ## What is Daytona?
 
@@ -39,7 +86,8 @@ By leveraging configuration in a project’s remote Git repository, Daytona buil
 
 Daytona’s functionality is exposed through a command-line tool that runs on Linux, macOS, and Windows systems, on both x86-64 and AArch64 architectures.
 
----
+For more information about Daytona, visit the [Daytona documentation site](https://www.daytona.io/docs/).
+
 
 ## Devcontainer Configuration
 
@@ -67,5 +115,3 @@ The Daytona configuration for this project is located in the `.devcontainer` dir
   "postCreateCommand": "npm install && npx prisma generate && npm run build"
 }
 ```
-
-Feel free to change it as per your need.
