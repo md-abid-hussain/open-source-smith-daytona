@@ -70,8 +70,22 @@ To get started with OpenSourceSmith, follow these steps:
    ```bash
    cp .env.example .env
    ```
+4. **Configure Environment Variables**:  
+  To configure the environment variables, you need to obtain the following:
 
-4. **Start the Application**:
+  - `DATABASE_URL`: This should be the Postgres database connection URL.
+  - `GEMINI_API_KEY`: This is the API key for accessing the Gemini API. You can get it from [here](https://ai.google.dev/gemini-api/docs).
+  - `NEXTAUTH_URL`: This is the URL of your NextAuth.js application. It should be the base URL of your deployed application. For development, it should be `http://localhost:3000`.
+  - `NEXTAUTH_SECRET`: This is a secret key used by NextAuth.js to encrypt session data. To generate a secure secret key, you can use the following command:
+    ```bash
+    openssl rand -base64 32
+    ```
+  - `GITHUB_ID`: This is the Client ID for GitHub OAuth. You can get this by registering your application on GitHub.
+  - `GITHUB_SECRET`: This is the Client Secret for GitHub OAuth. You can get this by registering your application on GitHub.
+
+  **Make sure to keep these values secure and do not expose them in your source code.**
+
+5. **Start the Application**:
    ```bash
    npm run dev
    ```
